@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.js": "/memoria/static/js/main.01641f9b.js",
+    "main.js": "/memoria/static/js/main.26723faa.js",
     "static/media/lol.png": "/memoria/static/media/lol.516a12e566be379acc91.png",
     "static/media/heimer.jpg": "/memoria/static/media/heimer.590049a01d634183a1e7.jpg",
     "static/media/vi.jpg": "/memoria/static/media/vi.8bae5e94fe9e8acd0921.jpg",
@@ -10,9 +10,9 @@
     "static/media/jayce.jpg": "/memoria/static/media/jayce.718569c3fba6576c73f9.jpg",
     "index.html": "/memoria/index.html",
     "static/media/restart.svg": "/memoria/static/media/restart.0348647a7dae743f139d281193d1d372.svg",
-    "main.01641f9b.js.map": "/memoria/static/js/main.01641f9b.js.map"
+    "main.26723faa.js.map": "/memoria/static/js/main.26723faa.js.map"
   },
   "entrypoints": [
-    "static/js/main.01641f9b.js"
+    "static/js/main.26723faa.js"
   ]
 }
