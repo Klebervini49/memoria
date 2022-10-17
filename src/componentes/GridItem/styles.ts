@@ -4,6 +4,7 @@ type ContainerProps = {
 };
 
 export const Container = styled.div<ContainerProps>`
+  -webkit-tap-highlight-color: transparent;
   background-color: ${(props) => (props.shownBackground ? '#fff' : '#E2E3E3')};
   width: 110px;
   height: 120px;
