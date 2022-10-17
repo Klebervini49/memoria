@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.js": "/memoria/static/js/main.01641f9b.js",
+    "static/media/lol.png": "/memoria/static/media/lol.516a12e566be379acc91.png",
+    "static/media/heimer.jpg": "/memoria/static/media/heimer.590049a01d634183a1e7.jpg",
+    "static/media/vi.jpg": "/memoria/static/media/vi.8bae5e94fe9e8acd0921.jpg",
+    "static/media/viktor.jpg": "/memoria/static/media/viktor.a038106016be4f25d95f.jpg",
+    "static/media/jinx.jpg": "/memoria/static/media/jinx.9c601b8253f7121916a4.jpg",
+    "static/media/caitlyn.jpg": "/memoria/static/media/caitlyn.08fd9ce6c67226e6fbff.jpg",
+    "static/media/jayce.jpg": "/memoria/static/media/jayce.718569c3fba6576c73f9.jpg",
+    "index.html": "/memoria/index.html",
+    "static/media/restart.svg": "/memoria/static/media/restart.0348647a7dae743f139d281193d1d372.svg",
+    "main.01641f9b.js.map": "/memoria/static/js/main.01641f9b.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.01641f9b.js"
+  ]
+}
