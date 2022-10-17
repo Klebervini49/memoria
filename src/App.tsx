@@ -17,7 +17,38 @@ const App = () => {
   const [shownCount, setShownCount] = useState<number>(0);
   const [gridItems, setGridItems] = useState<GridItemType[]>([]);
 
-  useEffect(() => resetAndCreateGrid(), []);
+  useEffect(() => {
+    // Step 1 - Reset the game
+    setTimeElapsed(0);
+    setMoveCount(0);
+    setShownCount(0);
+
+    // Step 2 - Create the grid
+
+    // Step 2.1 - Create the grid empty
+    let tmpGrid: GridItemType[] = [];
+
+    for (let i = 0; i < helper.length * 2; i++)
+      tmpGrid.push({ item: null, shown: false, shownPermanent: false });
+
+    // Step 2.2 - Fill in the grid
+    for (let w = 0; w < 2; w++) {
+      for (let i = 0; i < helper.length; i++) {
+        let pos = -1;
+        while (pos < 0 || tmpGrid[pos].item !== null) {
+          pos = Math.floor(Math.random() * (helper.length * 2));
+        }
+        tmpGrid[pos].item = i;
+      }
+    }
+
+    // Step 2.3 - Put on in the state
+    setGridItems(tmpGrid);
+
+    // Step 3- Start the game
+    setPlaying(true);
+  }, []);
+
   useEffect(() => {
     const timer = setInterval(() => {
       if (playing) setTimeElapsed(timeElapsed + 1);
